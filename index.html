@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Creative Developer</title>
+  <link rel="stylesheet" href="code.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="brand-mark">A</span>
+        <span>Ayesha.dev</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" data-nav-links>
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Front-end developer and designer</p>
+        <h1>Building clean, responsive websites that feel effortless to use.</h1>
+        <p class="hero-text">I create modern web experiences with thoughtful layouts, fast interactions, and interfaces that look sharp on every screen.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#work">View Projects</a>
+          <a class="btn secondary" href="#contact">Hire Me</a>
+        </div>
+      </div>
+      <div class="hero-visual reveal" aria-label="Portfolio preview">
+        <div class="browser-card">
+          <div class="browser-top"><span></span><span></span><span></span></div>
+          <div class="profile-panel">
+            <div class="avatar">A</div>
+            <div><strong>Ayesha Khan</strong><p>Creative Web Developer</p></div>
+          </div>
+          <div class="metrics-grid">
+            <div><strong>18+</strong><span>Projects</span></div>
+            <div><strong>4.9</strong><span>Rating</span></div>
+            <div><strong>3 yr</strong><span>Experience</span></div>
+          </div>
+          <div class="chart">
+            <span style="height:46%"></span><span style="height:72%"></span><span style="height:58%"></span><span style="height:88%"></span><span style="height:66%"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-heading reveal"><p class="eyebrow">About</p><h2>A focused portfolio for your next opportunity.</h2></div>
+      <div class="about-grid">
+        <p class="lead reveal">I specialize in responsive websites, portfolio pages, business landing pages, and interactive front-end features using HTML, CSS, and JavaScript.</p>
+        <div class="about-card reveal"><h3>What I care about</h3><p>Clear structure, accessible colors, smooth behavior, and designs that help visitors find the right information quickly.</p></div>
+      </div>
+    </section>
+
+    <section class="section work" id="work">
+      <div class="section-heading reveal"><p class="eyebrow">Selected Work</p><h2>Recent projects</h2></div>
+      <div class="project-grid">
+        <article class="project-card reveal"><div class="project-media media-one"><span>01</span></div><div class="project-body"><h3>Studio Landing Page</h3><p>A bold responsive homepage with strong calls to action and mobile-first sections.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div></article>
+        <article class="project-card reveal"><div class="project-media media-two"><span>02</span></div><div class="project-body"><h3>Dashboard UI</h3><p>A clean interface for viewing metrics, cards, and activity in a compact layout.</p><div class="tags"><span>Grid</span><span>Charts</span><span>UI</span></div></div></article>
+        <article class="project-card reveal"><div class="project-media media-three"><span>03</span></div><div class="project-body"><h3>Portfolio Refresh</h3><p>A personal website with smooth scrolling, responsive navigation, and polished sections.</p><div class="tags"><span>Responsive</span><span>Animation</span><span>SEO</span></div></div></article>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="section-heading reveal"><p class="eyebrow">Skills</p><h2>Tools I use</h2></div>
+      <div class="skills-list reveal">
+        <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Responsive Design</span><span>UI Design</span><span>Git</span><span>Accessibility</span><span>Performance</span>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="contact-inner reveal">
+        <div><p class="eyebrow">Contact</p><h2>Let's build something useful.</h2><p>Available for portfolio websites, landing pages, and front-end development projects.</p></div>
+        <form class="contact-form">
+          <label>Name<input type="text" name="name" placeholder="Your name" required></label>
+          <label>Email<input type="email" name="email" placeholder="you@example.com" required></label>
+          <label>Message<textarea name="message" rows="4" placeholder="Tell me about your project" required></textarea></label>
+          <button class="btn primary" type="submit">Send Message</button>
+          <p class="form-note" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><p>&copy; <span id="year"></span> Ayesha.dev. All rights reserved.</p><a href="#top">Back to top</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
